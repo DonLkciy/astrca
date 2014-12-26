@@ -16,6 +16,11 @@
 
 </script>
 -->
+<script type="text/javascript">
+    function didLoad() {
+        window.location.href="weiyou://didLoad"  // by decamincow
+    }
+</script>
 	<meta http-equiv="Content-Script-Type" content="text/javascript">
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<meta charset="utf-8">
@@ -204,7 +209,7 @@
         </style>
 
 </head>
-<body  id="0">
+<body  id="0" onLoad="didLoad()">
 
 	<div id="loading" style="display: none; ">加载中...</div>
 	<canvas id="canvas" style="display: block; cursor: auto; " class="desktop" width="480" height="720">
